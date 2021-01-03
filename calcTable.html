@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.preloader.css"> 
+    <link rel="stylesheet" href="./css/main.css"> 
+    <!-- JS -->
+    <script src="./script/script.js" defer></script>
+</head>
+<body>
+    <!-- Preloader: Start -->
+    <div id="page-preloader">
+        <div class="cssload-box-loading">
+        </div>
+    </div>
+    <!-- Preloader: Finish -->
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="offer">
+                <div class="menu">
+                    <img src="./images/menu.svg" alt="Burger">
+                </div>
+                <h1 class="title">
+                    Таблица рассчета
+                </h1>
+            </div>
+        </div>
+    </header>
+    <!-- Calc Table -->
+    <section class="calc-table">
+    	<div class="container">
+            <div class="choice-month">
+                <div class="calc-table-block">
+                    <select class="calc-item calc-table-item calc-type" required>
+                        <option class="calc-option-title" value="">Выбрать месяц</option>
+                        <option value="">Январь</option>
+                        <option value="">Февраль</option>
+                        <option value="">Март</option>
+                        <option value="">Апрель</option>
+                        <option value="">Май</option>
+                        <option value="">Июнь</option>
+                        <option value="">Июль</option>
+                        <option value="">Август</option>
+                        <option value="">Сентябрь</option>
+                        <option value="">Октябрь</option>
+                        <option value="">Ноябрь</option>
+                        <option value="">Декабрь</option>
+                    </select>
+                    <select class="calc-item calc-table-item calc-type" required>
+                        <option class="calc-option-title" value="">2021 г.</option>
+                        <option value="">2022 г.</option>
+                        <option value="">2023 г.</option>
+                        <option value="">2024 г.</option>
+                        <option value="">2025 г.</option>
+                    </select>
+                </div>
+                <a href="#" class="btn table-btn">Показать</a>
+            </div>
+            <div class="calc-table-value">
+
+            </div>
+            <a href="#" class="btn calc-btn d-none">Ok</a>
+    	</div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="https://t.me/andrewbarkovets" class="footer-link">Andrew Barkovets<span> * 2021</span></a>
+            
+        </div>
+    </footer>
+    <!-- Menu -->
+    <menu>
+		<a class="close-btn" href="#close">&times;</a>
+		<ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">Что это!</a></li>
+            <li><a href="calcTable.html">Таблица рассчетов</a></li>
+		</ul>
+	</menu>
+</body>
+</html>
