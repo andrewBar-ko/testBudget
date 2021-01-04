@@ -43,14 +43,15 @@ window.addEventListener('DOMContentLoaded', () => {
     // Calculation 
     const makeCalc = () => {
 
-        let calcBtnGet = document.querySelector(".calc-btn-get"),
+        let calcAmount = document.querySelector(".calc-amount"),
+            calcExpenses = document.querySelector(".calc-expenses");
+            
+        const calcBtnGet = document.querySelector(".calc-btn-get"),
             calcBtnOk = document.querySelector(".calc-btn-ok"),
             calcValue = document.querySelector(".calc-value"),
             titleValue = document.querySelector(".title-value"),
             titleCalc = document.querySelector(".title-calc"),
             calcBlock = document.querySelector(".calc-block"),
-            calcAmount = document.querySelector(".calc-amount"),
-            calcExpenses = document.querySelector(".calc-expenses"),
             calcCalculation = document.querySelector(".calc-calculation"),
             calcPiggyBank = document.querySelector(".calc-piggy_bank"),
             calcName = document.querySelector(".calc-name"),
