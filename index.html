@@ -25,7 +25,7 @@
                     <img src="./images/menu.svg" alt="Burger">
                 </div>
                 <h1 class="title title-value">
-                    Доходы?</br>
+                    Доходы?<br>
                     <span>
                         Нет, не слышал)
                     </span>
@@ -35,10 +35,20 @@
                 </h1>
             </div>
         </div>
+        <!-- Menu -->
+        <menu>
+            <a class="close-btn" href="#close">&times;</a>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Что это!</a></li>
+                <li><a href="calcTable.html">Таблица рассчетов</a></li>
+            </ul>
+        </menu>
     </header>
     <!-- Calc Budget -->
     <section class="call-budget">
     	<div class="container">
+            <h2 class="d-none">Рассчет</h2>
     		<div class="calc-block calc-value">
 	            <select class="calc-item calc-type" required>
 	                <option class="calc-option-title" value="">Доходы</option>
@@ -47,9 +57,9 @@
 	                <option value="2">Премия</option>
 	                <option value="2">Другое</option>
 	            </select>
-	            <input type="text" min="1" step="1" inputmode="numeric" class="calc-item calc-amount text-left"
+	            <input type="text" inputmode="numeric" class="calc-item calc-amount text-left"
 	                        placeholder="Сумма">
-	            <input type="text" min="1" step="1" inputmode="numeric" class="calc-item calc-expenses text-left"
+	            <input type="text" inputmode="numeric" class="calc-item calc-expenses text-left"
 	                        placeholder="Обязательные расходы*">
 
 	            <div class="calc-mini">* Сумма(без копеек) которая не входит в расчет<br> (кредит за авто, кварплата и т.п.)
@@ -84,14 +94,6 @@
             
         </div>
     </footer>
-    <!-- Menu -->
-    <menu>
-		<a class="close-btn" href="#close">&times;</a>
-		<ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="about.html">Что это!</a></li>
-            <li><a href="calcTable.html">Таблица рассчетов</a></li>
-		</ul>
-	</menu>
+    
 </body>
 </html>
